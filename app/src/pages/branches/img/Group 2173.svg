@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2,.cls-3,.cls-6{fill:none}.cls-2,.cls-3{stroke:#010035;stroke-width:2px}.cls-3{stroke-linecap:round}.cls-4{fill:#010035}.cls-5{stroke:none}.cls-7{filter:url(#Ellipse_230)}
+        </style>
+        <filter id="Ellipse_230" width="90" height="90" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_2173" data-name="Group 2173" transform="translate(10975 -3338)">
+        <g class="cls-7" transform="translate(-10975 3338)">
+            <circle id="Ellipse_230-2" cx="36" cy="36" r="36" class="cls-1" data-name="Ellipse 230" transform="translate(9 6)"/>
+        </g>
+        <g id="Group_2173-2" data-name="Group 2173" transform="translate(-.305 -.305)">
+            <g id="Ellipse_231" class="cls-2" data-name="Ellipse 231" transform="translate(-10943.356 3366.644)">
+                <circle cx="13.356" cy="13.356" r="13.356" class="cls-5"/>
+                <circle cx="13.356" cy="13.356" r="12.356" class="cls-6"/>
+            </g>
+            <path id="Line_61" d="M0 3.71V0" class="cls-3" data-name="Line 61" transform="translate(-10929.629 3363.305)"/>
+            <path id="Line_64" d="M0 3.71V0" class="cls-3" data-name="Line 64" transform="translate(-10929.629 3392.985)"/>
+            <path id="Line_62" d="M0 0h3.71" class="cls-3" data-name="Line 62" transform="translate(-10917.015 3380.371)"/>
+            <path id="Line_63" d="M0 0h3.71" class="cls-3" data-name="Line 63" transform="translate(-10946.695 3380.371)"/>
+            <circle id="Ellipse_232" cx="6.729" cy="6.729" r="6.729" class="cls-4" data-name="Ellipse 232" transform="translate(-10936.729 3373.271)"/>
+        </g>
+    </g>
+</svg>

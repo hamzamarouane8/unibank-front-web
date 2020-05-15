@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.734" height="59.734" viewBox="0 0 59.734 59.734">
+    <defs>
+        <style>
+            .cls-1{fill:#e9041e}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon_cercle" data-name="icon cercle" transform="translate(425.881 12596)">
+        <path id="Subtraction_42" d="M59.735 29.867H0a29.875 29.875 0 0 1 57.387-11.625 29.68 29.68 0 0 1 2.347 11.625z" class="cls-1" data-name="Subtraction 42" transform="translate(-425.881 -12596)"/>
+        <path id="Subtraction_43" d="M59.735 0H0a29.679 29.679 0 0 0 2.347 11.626 29.768 29.768 0 0 0 6.4 9.494 29.769 29.769 0 0 0 9.494 6.4 29.965 29.965 0 0 0 23.251 0 29.767 29.767 0 0 0 9.494-6.4 29.767 29.767 0 0 0 6.4-9.494A29.68 29.68 0 0 0 59.735 0z" data-name="Subtraction 43" transform="translate(-425.881 -12566.133)"/>
+        <path id="Rectangle_1632" d="M0 0h34.433v3.413H0z" class="cls-2" data-name="Rectangle 1632" transform="translate(-413.512 -12568.166)"/>
+    </g>
+</svg>

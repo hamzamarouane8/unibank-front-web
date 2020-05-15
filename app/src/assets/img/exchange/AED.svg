@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.76" height="16.315" viewBox="0 0 25.76 16.315">
+    <defs>
+        <style>
+            .cls-1{fill:#d1d1d6}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#73af00}.cls-4{fill:#464655}.cls-5{fill:#f5f5f5}.cls-6{fill:#ff4b55}
+        </style>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_1796" width="25.76" height="16.315" class="cls-1" data-name="Rectangle 1796" rx="4"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_760" class="cls-2" data-name="Mask Group 760" transform="translate(.001)">
+        <g id="united-arab-emirates" transform="translate(.429)">
+            <path id="Path_3029" d="M26.446 10.59H9.273V5.152h16.744a.429.429 0 0 1 .429.429v5.009z" class="cls-3" data-name="Path 3029" transform="translate(-1.545 -5.152)"/>
+            <path id="Path_3030" d="M26.017 23.641H9.273V18.2h17.173v5.009a.429.429 0 0 1-.429.432z" class="cls-4" data-name="Path 3030" transform="translate(-1.545 -7.326)"/>
+            <path id="Rectangle_1823" d="M0 0h17.173v5.438H0z" class="cls-5" data-name="Rectangle 1823" transform="translate(7.728 5.438)"/>
+            <path id="Path_3031" d="M7.728 21.466H.429A.429.429 0 0 1 0 21.037V5.581a.429.429 0 0 1 .429-.429h7.3z" class="cls-6" data-name="Path 3031" transform="translate(0 -5.152)"/>
+        </g>
+    </g>
+</svg>

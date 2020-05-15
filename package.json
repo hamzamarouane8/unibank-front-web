@@ -1,0 +1,66 @@
+{
+  "name": "@sgabskit/df",
+  "private": true,
+  "scripts": {
+    "dev": "            lerna exec --parallel --ignore '@bankup/*' -- cross-env NODE_ENV=production BABEL_ENV=production:esm babel src -w -d dist/esm --root-mode upward",
+    "build": "          run-p build:pkg build:babel:esm",
+    "delete:build": "   lerna exec --ignore '@bankup/*' -- rimraf dist",
+    "clean": "          lerna exec -- rimraf node_modules package-lock.json dist",
+    "build:babel:esm": "lerna exec --ignore '@bankup/*' -- cross-env  NODE_ENV=production BABEL_ENV=production:esm babel src -d dist/esm --root-mode upward --copy-files",
+    "build:pkg": "      lerna exec --ignore '@bankup/*' -- copy-pkg package.json dist/package.json --only name,version,sideEffects",
+    "storybook": "      start-storybook"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@bankup/node-client": "^0.3.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "apexcharts": "^3.2.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-styled-components": "^1.10.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^7.0.0-beta.3",
+    "babel-preset-es2015": "^7.0.0-beta.3",
+    "babel-preset-flow": "^7.0.0-beta.3",
+    "babel-preset-react": "^7.0.0-beta.3",
+    "chromedriver": "75.0.0",
+    "copy-pkg": "^1.0.0",
+    "copyfiles": "^2.1.0",
+    "cross-env": "^5.2.0",
+    "lerna": "^3.21.0",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "react-apexcharts": "^1.2.1",
+    "react-markdown": "4.2.2",
+    "react-otp-input": "^1.0.1",
+    "react-simple-keyboard": "1.25.0",
+    "rimraf": "^2.6.3",
+    "styled-components": "^3.5.0-0"
+  },
+  "workspaces": [
+    "app",
+    "packages/core/*",
+    "packages/widgets/*"
+  ],
+  "bolt": {
+    "workspaces": [
+      "app",
+      "packages/core/*",
+      "packages/widgets/*"
+    ]
+  },
+  "dependencies": {
+    "yarn": "^1.17.3"
+  }
+}

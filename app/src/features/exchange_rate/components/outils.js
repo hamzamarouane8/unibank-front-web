@@ -1,0 +1,15 @@
+export const assets_countrie={
+  "AED": require('../../../assets/img/exchange/united-arab-emirates.svg'),
+  "AFN": require('../../../assets/img/exchange/afghanistan.svg'),
+  "ALL": require('../../../assets/img/exchange/albania.svg'),
+  "AMD": require('../../../assets/img/exchange/armenia.svg'),
+  "CAD": require('../../../assets/img/exchange/canada.svg'),
+  "XAF": require('../../../assets/img/exchange/West African.svg'),
+  "XOF": require('../../../assets/img/exchange/West African.svg'),
+  "JPY": require('../../../assets/img/exchange/japan.svg'),
+  "USD": require('../../../assets/img/exchange/united-states-of-america.svg'),
+  "AUD": require('../../../assets/img/exchange/australia.svg'),
+  "CHF": require('../../../assets/img/exchange/switzerland.svg'),
+  "CNY": require('../../../assets/img/exchange/china.svg'),
+  "GBP": require('../../../assets/img/exchange/united-kingdom.svg'),
+}

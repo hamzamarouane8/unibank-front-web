@@ -1,0 +1,41 @@
+{
+  "name": "@sgabskit/modal",
+  "version": "0.0.1",
+  "description": "Modal.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@sgabskit/layout": "^0.1.8",
+    "styled-components": "^3.5.0-0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

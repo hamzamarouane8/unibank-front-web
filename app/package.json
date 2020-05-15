@@ -1,0 +1,74 @@
+{
+  "name": "@bankup/web-clients",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "homepage": ".",
+  "dependencies": {
+    "@bankup/node-client": "^0.3.4",
+    "@sgabskit/alerts": "^0.1.8",
+    "@sgabskit/app": "^0.1.8",
+    "@sgabskit/button": "^0.1.8",
+    "@sgabskit/chart": "^0.1.8",
+    "@sgabskit/commons": "^0.1.8",
+    "@sgabskit/constants": "^0.1.6",
+    "@sgabskit/crud": "^0.1.8",
+    "@sgabskit/datasource": "^0.1.8",
+    "@sgabskit/dialog": "^0.1.8",
+    "@sgabskit/empty-state": "^0.1.8",
+    "@sgabskit/eventbus": "^0.1.8",
+    "@sgabskit/form": "^0.1.8",
+    "@sgabskit/http-client": "^0.1.8",
+    "@sgabskit/icons": "^0.1.8",
+    "@sgabskit/layout": "^0.1.8",
+    "@sgabskit/link": "^0.1.8",
+    "@sgabskit/loader": "^0.1.8",
+    "@sgabskit/local-storage": "^0.1.6",
+    "@sgabskit/modal": "^0.0.1",
+    "@sgabskit/models": "^0.1.6",
+    "@sgabskit/page": "^0.1.8",
+    "@sgabskit/pane": "^0.1.8",
+    "@sgabskit/popover": "^0.1.8",
+    "@sgabskit/search": "^0.0.1",
+    "@sgabskit/table": "^0.1.8",
+    "@sgabskit/text": "^0.1.8",
+    "@sgabskit/toolbar": "^0.1.8",
+    "@sgabskit/w-carousel": "^0.1.0",
+    "@sgabskit/w-features": "^0.1.0",
+    "@sgabskit/w-footer": "^0.1.0",
+    "@sgabskit/w-keyboard": "^0.1.0",
+    "@sgabskit/w-maps": "^0.1.0",
+    "@sgabskit/w-modal-validation": "^0.1.0",
+    "babel-plugin-jsx-remove-data-test-id": "^2.0.0",
+    "faker": "^4.1.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.escaperegexp": "^4.1.2",
+    "lodash.filter": "^4.6.0",
+    "lodash.isstring": "^4.0.1",
+    "nightwatch": "^1.0.19",
+    "react-notifications-component": "^1.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "nightwatch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "axios-mock-adapter": "^1.16.0",
+    "nodemon": "^1.18.8"
+  }
+}

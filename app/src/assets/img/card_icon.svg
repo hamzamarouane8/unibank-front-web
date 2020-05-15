@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#a3a6b1}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1481" d="M0 0h26v26H0z" class="cls-1" data-name="Rectangle 1481" transform="translate(253 1305)"/>
+        </clipPath>
+    </defs>
+    <g id="card_icon_disable" class="cls-2" data-name="card_icon disable" transform="translate(-253 -1305)">
+        <g id="payment" transform="translate(253 1308.714)">
+            <path id="Path_2086" d="M13.643 12.511a.929.929 0 1 1-.929-.929.929.929 0 0 1 .929.929zm0 0" class="cls-3" data-name="Path 2086" transform="translate(2.143 2.346)"/>
+            <path id="Path_2087" d="M16 12.511a.929.929 0 1 1-.929-.929.929.929 0 0 1 .929.929zm0 0" class="cls-3" data-name="Path 2087" transform="translate(2.571 2.346)"/>
+            <path id="Path_2088" d="M25.429 1.19A1.393 1.393 0 0 0 24.036-.2h-19.5a1.393 1.393 0 0 0-1.393 1.39v.464h17.178a2.324 2.324 0 0 1 2.321 2.321v11.608h1.393a1.393 1.393 0 0 0 1.393-1.393zm0 0" class="cls-3" data-name="Path 2088" transform="translate(.571 .203)"/>
+            <path id="Path_2089" d="M22.286 3.547a1.393 1.393 0 0 0-1.393-1.393h-19.5A1.393 1.393 0 0 0 0 3.547v.929h22.286zm0 0" class="cls-3" data-name="Path 2089" transform="translate(0 .632)"/>
+            <path id="Path_2090" d="M0 4.9h22.286v.929H0zm0 0" class="cls-3" data-name="Path 2090" transform="translate(0 1.132)"/>
+            <path id="Path_2091" d="M22.286 6.476H0v9.286a1.393 1.393 0 0 0 1.393 1.393h19.5a1.393 1.393 0 0 0 1.393-1.393zM17.643 15.3a1.845 1.845 0 0 1-1.393-.641 1.857 1.857 0 1 1 0-2.431 1.853 1.853 0 1 1 1.393 3.072zm0 0" class="cls-3" data-name="Path 2091" transform="translate(0 1.417)"/>
+        </g>
+    </g>
+</svg>

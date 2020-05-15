@@ -1,0 +1,46 @@
+{
+  "name": "@sgabskit/theme",
+  "version": "0.2.0",
+  "description": "Theme.",
+  "license": "Apache-2.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@sgabskit/constants": "^0.1.6",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "react-content-loader": "^4.2.1",
+    "semantic-ui-css": "^2.4.1",
+    "styled-components": "^3.5.0-0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.6"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

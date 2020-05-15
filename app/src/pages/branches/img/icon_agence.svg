@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.707" height="50.483" viewBox="0 0 34.707 50.483">
+    <defs>
+        <style>
+            .cls-1{fill:#e9041e}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Black_agency_PEN">
+        <path id="Path_2160" d="M17.353 0a17.353 17.353 0 0 1 17.354 17.353c0 9.584-17.353 33.129-17.353 33.129S0 26.937 0 17.353A17.353 17.353 0 0 1 17.353 0z" class="cls-1" data-name="Path 2160"/>
+        <g id="bank-building_2_" data-name="bank-building (2)" transform="translate(7.177 6.133)">
+            <g id="Layer_1_78_">
+                <g id="Group_2138" data-name="Group 2138">
+                    <path id="Path_2154" d="M19.678 42.718H.937a.937.937 0 1 0 0 1.875h18.741a.937.937 0 0 0 0-1.875z" class="cls-2" data-name="Path 2154" transform="translate(0 -23.978)"/>
+                    <path id="Path_2155" d="M3.606 25.181a.938.938 0 0 0 0 1.875H20a.938.938 0 0 0 0-1.875h-.234v-8.434H20a.468.468 0 0 0 0-.936H3.606a.468.468 0 0 0 0 .936h.234v8.433h-.234zM17.9 16.747v8.433h-2.815v-8.433zm-4.686 0v8.433H10.4v-8.433zm-7.5 0h2.811v8.433H5.714z" class="cls-2" data-name="Path 2155" transform="translate(-1.498 -8.878)"/>
+                    <path id="Path_2156" d="M.937 6.1h18.75a.937.937 0 0 0 .3-1.824L10.693.094a.939.939 0 0 0-.769 0L.553 4.31A.937.937 0 0 0 .937 6.1z" class="cls-2" data-name="Path 2156" transform="translate(0 -.012)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

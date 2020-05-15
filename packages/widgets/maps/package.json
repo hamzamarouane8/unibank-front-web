@@ -1,0 +1,42 @@
+{
+  "name": "@sgabskit/w-maps",
+  "version": "0.1.0",
+  "description": "Maps widget.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "SGABS",
+  "maintainers": [
+    "SGABS"
+  ],
+  "repository": "https://github.com",
+  "dependencies": {
+    "@sgabskit/theme": "^0.2.0",
+    "react-google-maps": "^9.4.5",
+    "@sgabskit/commons": "^0.1.8",
+    "@sgabskit/modal": "^0.0.1",
+    "semantic-ui-react": "^0.85.0"
+
+
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

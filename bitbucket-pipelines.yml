@@ -1,0 +1,67 @@
+pipelines:
+  default:
+    - step:
+        name: Build resources
+        image: node:stretch-slim
+        caches:
+          - node
+        script:
+          - yarn install
+          - yarn build
+          - yarn global add lerna
+          - lerna bootstrap
+          - cd app
+          - CI=false yarn build
+  branches:
+    master:
+      - step:
+          name: Test and build artifacts
+          image: node:stretch-slim
+          caches:
+            - node
+          script:
+            - yarn install
+            - yarn build
+            - yarn global add lerna
+            - lerna bootstrap
+            - cd app
+            - CI=false yarn build
+          artifacts:
+            - app/build/**
+      - step:
+          name: Release docker image
+          image: google/cloud-sdk:latest
+          services:
+            - docker
+          caches:
+            - docker
+          script:
+            - cd app
+            - export SERVICE_GROUP=sg-bankup
+            - export SERVICE_NAME=customers-web
+            - echo $GCLOUD_CREDENTIALS_JSON | base64 -d > credentials.json
+            - export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/credentials.json
+            - export IMAGE_NAME=gcr.io/$GCP_PROJECT/$SERVICE_GROUP/$SERVICE_NAME:${BITBUCKET_BUILD_NUMBER}
+            - ls -alr
+            - docker build -t $IMAGE_NAME .
+            - gcloud auth activate-service-account $GCP_SERVICE_ACCOUNT --key-file=$GOOGLE_APPLICATION_CREDENTIALS
+            - gcloud auth configure-docker -q
+            - docker push $IMAGE_NAME
+      - step:
+          name: Deploy to Cloud Run
+          deployment: Test
+          image: google/cloud-sdk:latest
+          script:
+            - export SERVICE_GROUP=sg-bankup
+            - export SERVICE_NAME=customers-web
+            - echo $GCLOUD_CREDENTIALS_JSON | base64 -d > credentials.json
+            - export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/credentials.json
+            - export IMAGE_NAME=gcr.io/$GCP_PROJECT/$SERVICE_GROUP/$SERVICE_NAME:${BITBUCKET_BUILD_NUMBER}
+            - gcloud auth activate-service-account $GCP_SERVICE_ACCOUNT --key-file=$GOOGLE_APPLICATION_CREDENTIALS
+            - gcloud beta run deploy $SERVICE_GROUP-$SERVICE_NAME --image $IMAGE_NAME --platform managed --region europe-west1 --project $GCP_PROJECT
+            - echo "May the force be with you."
+definitions:
+  services:
+    docker:
+      memory: 2048
+

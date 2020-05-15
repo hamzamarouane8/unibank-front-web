@@ -1,0 +1,58 @@
+{
+  "bank": {
+    "contact": {
+      "email": "contact@societegenerale.afmo"
+    },
+    "address": {
+      "line1": "Boulevard Sidi Mohamed Ben Abdellah",
+      "line2": "Casablanca Marina, Tour Ivoire 2",
+      "postalCode": "200030",
+      "city": "Casablanca",
+      "country": "Maroc"
+    }
+  },
+  "copyrightMessage": "Groupe Société Générale. Tous droits réservés",
+  "pages": {
+    "home": {
+      "products": [
+        {
+          "title": "BankUP, la banque en ligne innovante à portée de main.",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.",
+          "action": "Plus d'info",
+          "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/marketing_man_1.jpg"
+        },
+        {
+          "title": "Une première ouverture de compte bancaire.",
+          "description": "Vous souhaitez transférer vos comptes dans une nouvelle agence? Ouvrir un compte joint ou pour votre enfant ? Connectez-vous à votre espace client pour prendre rendez-vous avec votre conseiller, ou cliquez-ci-dessous pour prendre rendez-vous dans l'agence de votre choix.",
+          "action": "Plus d'info",
+          "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/marketing_woman_1.jpg"
+        }
+      ],
+      "features": {
+        "title": "Une banque en ligne qui s'adapte a vos besoins.",
+        "description": "Avec BankUP, profitez des avantages d'une banque digitale",
+        "cta": {
+          "text": "Souscrire"
+        },
+        "items": [
+          {
+            "title": "Transfer votre argent en toute sécurité",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/ic_feature_1.svg"
+          },
+          {
+            "title": "Transfer votre argent en toute sécurité",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/ic_feature_2.svg"
+          },
+          {
+            "title": "Transfer votre argent en toute sécurité",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/ic_feature_3.svg"
+          }
+        ]
+      }
+    }
+  }
+}
+

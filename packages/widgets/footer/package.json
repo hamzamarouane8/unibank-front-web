@@ -1,0 +1,37 @@
+{
+  "name": "@sgabskit/w-footer",
+  "version": "0.1.0",
+  "description": "Bloc Footer.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "SGABS",
+  "maintainers": [
+    "SGABS"
+  ],
+  "repository": "https://github.com",
+  "dependencies": {
+    "@sgabskit/theme": "^0.2.0",
+    "@sgabskit/layout": "^0.1.8"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

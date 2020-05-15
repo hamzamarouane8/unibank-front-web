@@ -1,0 +1,35 @@
+{
+  "name": "@sgabskit/models",
+  "version": "0.1.6",
+  "description": "MOdels.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ],
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "lodash.map": "^4.6.0",
+    "lodash.pick": "^4.4.0"
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{filter:url(#Ellipse_230)}
+        </style>
+        <filter id="Ellipse_230" width="71" height="71" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="3.5"/>
+            <feFlood flood-color="#242c33" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Agencey_icon" transform="translate(10.5 8.5)">
+        <g class="cls-2" transform="translate(-10.5 -8.5)">
+            <circle id="Ellipse_230-2" cx="25" cy="25" r="25" class="cls-1" data-name="Ellipse 230" transform="translate(10.5 8.5)"/>
+        </g>
+        <g id="Layer_1_78_" transform="translate(14.256 13.822)">
+            <g id="Group_2138" data-name="Group 2138">
+                <path id="Path_2154" d="M21.2 42.718H1.01a1.01 1.01 0 1 0 0 2.02H21.2a1.01 1.01 0 0 0 0-2.02z" data-name="Path 2154" transform="translate(0 -22.526)"/>
+                <path id="Path_2155" d="M3.679 25.907a1.01 1.01 0 0 0 0 2.02h17.669a1.01 1.01 0 0 0 0-2.02H21.1V16.82h.252a.5.5 0 0 0 0-1.009H3.679a.5.5 0 0 0 0 1.009h.252v9.087h-.252zm15.4-9.087v9.087h-3.032V16.82zm-5.049 0v9.087H11V16.82zm-8.077 0h3.026v9.087H5.95z" data-name="Path 2155" transform="translate(-1.407 -8.341)"/>
+                <path id="Path_2156" d="M1.01 6.574h20.2a1.01 1.01 0 0 0 .328-1.965L11.521.1a1.012 1.012 0 0 0-.828 0L.6 4.643a1.01 1.01 0 0 0 .414 1.93z" data-name="Path 2156" transform="translate(0 -.012)"/>
+            </g>
+        </g>
+    </g>
+</svg>

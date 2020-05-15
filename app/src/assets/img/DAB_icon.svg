@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71.01" height="71.01" viewBox="0 0 71.01 71.01">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{filter:url(#Ellipse_230)}
+        </style>
+        <filter id="Ellipse_230" width="71.01" height="71.01" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="3.5"/>
+            <feFlood flood-color="#242c33" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="DAB_icon" transform="translate(10.5 8.5)">
+        <g class="cls-2" transform="translate(-10.5 -8.5)">
+            <circle id="Ellipse_230-2" cx="25.005" cy="25.005" r="25.005" class="cls-1" data-name="Ellipse 230" transform="translate(10.5 8.5)"/>
+        </g>
+        <g id="atm-machine" transform="translate(14.447 13.845)">
+            <g id="Icons_2_">
+                <g id="Group_2145" data-name="Group 2145">
+                    <path id="Path_2163" d="M29.649 3.71A3.714 3.714 0 0 0 25.939 0H11.132a3.709 3.709 0 0 0-.008 7.419L10 20.346a2.371 2.371 0 0 0 2.363 2.579h12.35a2.371 2.371 0 0 0 2.363-2.579L25.947 7.419a3.714 3.714 0 0 0 3.702-3.709zm-4.372 17.361a.77.77 0 0 1-.566.25h-12.35a.768.768 0 0 1-.765-.835l1.361-15.974 11.124-.03 1.394 16a.768.768 0 0 1-.198.589zm.662-16.058h-.2l-.059-.67a1.561 1.561 0 0 0-1.565-1.435H12.957a1.562 1.562 0 0 0-1.565 1.435l-.058.671h-.2a1.3 1.3 0 1 1 0-2.607h14.805a1.3 1.3 0 1 1 0 2.607z" data-name="Path 2163" transform="translate(-7.422)"/>
+                    <path id="Path_2164" d="M155.913 221.657a.814.814 0 0 0-.846.756l-.4 7.152a.8.8 0 0 0 .756.846h.045a.8.8 0 0 0 .8-.757l.4-7.152a.8.8 0 0 0-.755-.845z" data-name="Path 2164" transform="translate(-147.737 -211.228)"/>
+                    <path id="Path_2165" d="M252.08 112.246a.8.8 0 0 0-.8.8v12.968a.8.8 0 1 0 1.6 0v-12.966a.8.8 0 0 0-.8-.802z" data-name="Path 2165" transform="translate(-239.805 -106.965)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

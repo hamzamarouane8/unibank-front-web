@@ -1,0 +1,48 @@
+{
+  "name": "@sgabskit/crud",
+  "version": "0.1.8",
+  "description": "CRUD.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@sgabskit/alerts": "^0.1.8",
+    "@sgabskit/button": "^0.1.8",
+    "@sgabskit/dialog": "^0.1.8",
+    "@sgabskit/form": "^0.1.8",
+    "@sgabskit/icons": "^0.1.8",
+    "@sgabskit/loader": "^0.1.8",
+    "@sgabskit/text": "^0.1.8"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "sgabs",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

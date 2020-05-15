@@ -1,0 +1,38 @@
+{
+  "name": "@sgabskit/w-keyboard",
+  "version": "0.1.0",
+  "description": "Keyboard widget.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "SGABS",
+  "maintainers": [
+    "SGABS"
+  ],
+  "repository": "https://github.com",
+  "dependencies": {
+    "@sgabskit/theme": "^0.2.0",
+    "@sgabskit/commons": "^0.1.8",
+    "react-simple-keyboard" : "1.25.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

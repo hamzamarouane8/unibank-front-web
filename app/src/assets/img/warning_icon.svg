@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.732" height="21.31" viewBox="0 0 24.732 21.31">
+    <defs>
+        <style>
+            .cls-1{fill:#e55f50;stroke:#e55f50;stroke-width:.7px}
+        </style>
+    </defs>
+    <g id="warning_1_" data-name="warning (1)" transform="translate(.35 .35)">
+        <g id="Group_1650" data-name="Group 1650">
+            <ellipse id="Ellipse_144" cx="1.206" cy="1.206" class="cls-1" data-name="Ellipse 144" rx="1.206" ry="1.206" transform="translate(10.811 14.698)"/>
+            <path id="Path_1935" d="M37.456 32.982a.664.664 0 0 0 .664-.664v-6.307a.664.664 0 1 0-1.328 0v6.307a.664.664 0 0 0 .664.664z" class="cls-1" data-name="Path 1935" transform="translate(-25.588 -19.571)"/>
+            <path id="Path_1936" d="M14.247 7.414l-.028-.043C13.652 6.5 13.067 5.6 12.016 5.6c-1.095 0-1.667.916-2.221 1.8l-.023.036L.085 23.849A.422.422 0 0 0 0 24.1a2.1 2.1 0 0 0 2.138 2.1H21.9a2.1 2.1 0 0 0 2.138-2.1.513.513 0 0 0-.085-.282zM21.9 24.981H2.138a.886.886 0 0 1-.9-.732l9.6-16.232c.475-.761.787-1.212 1.183-1.212s.752.572 1.176 1.226L22.8 24.246a.888.888 0 0 1-.9.735z" class="cls-1" data-name="Path 1936" transform="translate(0 -5.595)"/>
+        </g>
+    </g>
+</svg>

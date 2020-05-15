@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.803" height="47.803" viewBox="0 0 47.803 47.803">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_308" d="M0 0h23.331v23.331H0z" class="cls-1" data-name="Rectangle 308"/>
+        </clipPath>
+    </defs>
+    <g id="Localisation_icon" data-name="Localisation icon">
+        <g id="Group_25" data-name="Group 25">
+            <rect id="Rectangle_305" width="47.803" height="47.803" data-name="Rectangle 305" rx="5"/>
+        </g>
+        <g id="Mask_Group_602" class="cls-2" data-name="Mask Group 602" transform="translate(12.756 12.756)">
+            <g id="maps-and-flags_1_" data-name="maps-and-flags (1)" transform="translate(3.216)">
+                <g id="Group_26" data-name="Group 26">
+                    <path id="Path_12" d="M10.931 0a8.459 8.459 0 0 0-8.45 8.45c0 5.782 7.562 14.271 7.884 14.629a.761.761 0 0 0 1.132 0c.322-.359 7.884-8.847 7.884-14.629A8.459 8.459 0 0 0 10.931 0zm0 12.7a4.251 4.251 0 1 1 4.251-4.25 4.256 4.256 0 0 1-4.251 4.25z" class="cls-1" data-name="Path 12" transform="translate(-2.481)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

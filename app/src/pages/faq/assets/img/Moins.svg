@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#aab2c6}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#e60f28;fill-rule:evenodd}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1651" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 1651"/>
+        </clipPath>
+    </defs>
+    <g id="Moins" class="cls-2">
+        <g id="add-song" transform="translate(0 6.996)">
+            <path id="Path_2530" d="M15 7H9c-1.636 0-2.032-.009-2 0H1a1 1 0 1 0 0 2h6a18.888 18.888 0 0 1 2 0h6a1 1 0 1 0 0-2z" class="cls-3" data-name="Path 2530" transform="translate(0 -6.996)"/>
+        </g>
+    </g>
+</svg>

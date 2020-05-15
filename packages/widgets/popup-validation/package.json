@@ -1,0 +1,45 @@
+{
+  "name": "@sgabskit/w-modal-validation",
+  "version": "0.1.0",
+  "description": "Modal Validation Widget.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "SGABS",
+  "maintainers": [
+    "SGABS"
+  ],
+  "repository": "https://github.com",
+  "dependencies": {
+    "@sgabskit/button": "^0.1.8",
+    "@sgabskit/layout": "^0.1.8",
+    "@sgabskit/theme": "^0.2.0",
+    "classnames": "^2.2.6",
+    "react-code-input": "^3.8.1",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isstring": "^4.0.1",
+    "lodash.map": "^4.6.0",
+    "@sgabskit/modal": "^0.0.1",
+    "@sgabskit/w-keyboard": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

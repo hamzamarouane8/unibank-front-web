@@ -1,0 +1,33 @@
+{
+  "name": "@sgabskit/skeleton",
+  "version": "0.1.8",
+  "description": "Skeleton.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "dependencies": {
+    "react-content-loader": "^4.2.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

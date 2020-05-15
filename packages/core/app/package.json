@@ -1,0 +1,59 @@
+{
+  "name": "@sgabskit/app",
+  "version": "0.1.8",
+  "description": "App.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@sgabskit/alerts": "^0.1.8",
+    "@sgabskit/commons": "^0.1.8",
+    "@sgabskit/lazy-component": "^0.1.8",
+    "@sgabskit/local-storage": "^0.1.6",
+    "@sgabskit/spinner": "^0.1.8",
+    "@sgabskit/theme": "^0.2.0",
+    "bluebird": "^3.5.3",
+    "lodash.foreach": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isfunction": "^3.0.9",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isstring": "^4.0.1",
+    "lodash.map": "^4.6.0",
+    "lodash.merge": "^4.6.1",
+    "promise.prototype.finally": "^3.1.0",
+    "prop-types": "^15.7.2",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
+    "styletron-engine-atomic": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}

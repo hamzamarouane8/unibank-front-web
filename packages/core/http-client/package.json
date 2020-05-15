@@ -1,0 +1,41 @@
+{
+  "name": "@sgabskit/http-client",
+  "version": "0.1.8",
+  "description": "Http Client.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ],
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@sgabskit/eventbus": "^0.1.8",
+    "apollo-boost": "^0.1.28",
+    "apollo-cache-inmemory": "^1.4.3",
+    "axios": "^0.18.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0"
+  }
+}

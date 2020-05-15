@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Demo_icon" width="47.803" height="47.803" viewBox="0 0 47.803 47.803">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:#fff}.cls-2{clip-path:url(#clip-path)}.cls-3{fill-rule:evenodd}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_307" d="M0 0h20.933v20.933H0z" class="cls-1" data-name="Rectangle 307"/>
+        </clipPath>
+    </defs>
+    <g id="Group_23" data-name="Group 23">
+        <rect id="Rectangle_305" width="47.803" height="47.803" data-name="Rectangle 305" rx="5"/>
+    </g>
+    <g id="Mask_Group_600" class="cls-2" data-name="Mask Group 600" transform="translate(13.955 13.955)">
+        <g id="music-player-play_1_" data-name="music-player-play (1)" transform="translate(1.599)">
+            <path id="Path_8" d="M18.533 8.983L4.6.207A2.5 2.5 0 0 0 3.294 0a1.354 1.354 0 0 0-1.537 1.5v17.935a1.37 1.37 0 0 0 1.537 1.495 2.5 2.5 0 0 0 1.309-.2l13.93-8.78c1.143-.68.946-1.483.946-1.483s.198-.803-.946-1.484z" class="cls-3" data-name="Path 8" transform="translate(-1.757)"/>
+        </g>
+    </g>
+</svg>

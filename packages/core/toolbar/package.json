@@ -1,0 +1,52 @@
+{
+  "name": "@sgabskit/toolbar",
+  "version": "0.1.8",
+  "description": "Toolbar.",
+  "license": "Apache-2.0",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TG",
+  "maintainers": [
+    "TG"
+  ],
+  "repository": "https://github.com",
+  "scripts": {
+    "dev": "BABEL_ENV=production babel src/ -w -d dist/ --root-mode upward",
+    "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@sgabskit/avatar": "^0.1.8",
+    "@sgabskit/popover": "^0.1.8",
+    "@sgabskit/theme": "^0.2.0",
+    "lodash.isstring": "^4.0.1",
+    "lodash.map": "^4.6.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
+
+
+    "reactstrap": "^7.1.0",
+    "lodash.isempty": "^4.4.0"
+
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.4"
+  },
+  "keywords": [
+    "sgabs-react",
+    "ryo",
+    "react",
+    "ui"
+  ]
+}
