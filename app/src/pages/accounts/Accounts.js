@@ -24,7 +24,7 @@ const messageAnalytics = {
 }
 
 const filter = (list, type, flag) => {
-  return list.filter((it) => it.sign === type).map((it) => flag ? it.balanceMonth : it.amount)
+  return list.filter((it) => it.type === type).map((it) => flag ? it.balanceMonth : it.amount)
 }
 
 export default ({accountsService}) => {
@@ -38,9 +38,12 @@ export default ({accountsService}) => {
   useEffect(() => {
     let listAccounts = [];
     accountsService.loadAccounts().then((data) => {
-      const requests = (data.accounts || []).map((account, index) => {
+
+      const requests = (data || []).map((account, index) => {
+
         return accountsService.loadAccountDetails('16111904344').then((data) => {
-          listAccounts.push({...data.data, id: index,realTimeBalance: account.realTimeBalance,upcomingBalance:account.upcomingBalance });
+
+          listAccounts.push({...data, id: index,realTimeBalance: account.realTimeBalance,upcomingBalance:account.upcomingBalance });
         }).catch((error) => {
           setError(true);
         })
@@ -57,9 +60,10 @@ export default ({accountsService}) => {
 
   const selectedAccount = (account) => {
     accountsService.loadAccountTransactions('123').then((data) => {
+
       setLoading(false);
       setActiveItem(account);
-      setTransactions(data.data.transactions)
+      setTransactions(data.transactions)
       updateChartsData(account, transactions)
     }).catch((error) => {
       setError(true);
@@ -73,6 +77,7 @@ export default ({accountsService}) => {
     const chartDataSpending = filter(account.balances, 'spending_funds', false);
     const chartSoldeDataMonths = filter(account.balances, 'balance', true);
     const chartDataSolde = filter(account.balances, 'balance', false);
+    console.log('chartSoldeDataMonths',chartSoldeDataMonths);
 
     setContent({
       chartGain: {
@@ -92,7 +97,6 @@ export default ({accountsService}) => {
     })
     setLoading(false);
   }
-
 
   return (
     <>

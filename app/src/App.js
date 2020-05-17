@@ -89,6 +89,6 @@ const routes = {
 
 export default () => (
   <ThemeStyledProvider theme={theme}>
-    <AppContainer id="bankup" routes={routes} layout={LayoutGuest} config={{session: true}}/>
+    <AppContainer id="unibank" routes={routes} layout={LayoutGuest} config={{session: true}}/>
   </ThemeStyledProvider>
 )

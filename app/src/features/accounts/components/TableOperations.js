@@ -14,7 +14,7 @@ export default ({data, handleAllOperations}) => {
 
   const columns = [
     {"header": "Date d'operation", "name": "operationDate", render: (value, record) => Commons.dateFormat(value),alignCell:'center',align:'center'},
-    {"header": "Date de valeur", "name": "valueDate",render: (value, record) => Commons.dateFormat(value),alignCell:'center',align:'center'},
+    {"header": "Date de valeur", "name": "accountingDate",render: (value, record) => Commons.dateFormat(value),alignCell:'center',align:'center'},
     {"header": "Motif", "name": "label",alignCell:'center',align:'center'},
     {
       "header": "Montant",width:1,align:'center',

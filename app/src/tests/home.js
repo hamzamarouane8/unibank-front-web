@@ -1,6 +1,6 @@
 
 module.exports = {
-  'step one: navigate to bankup' : function (browser) {
+  'step one: navigate to UNIBANK' : function (browser) {
     browser
       .url('http://localhost:3000/branches')
       .waitForElementPresent('body', 10000)   //  200 OK

@@ -10,7 +10,7 @@ import * as store from '@sgabskit/local-storage';
 
 const assets = {
   logo_x1: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_200.jpg'),
-  logo_x2: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_432.jpg'),
+  logo_x2: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_432.png'),
   logout: require('../../assets/img/ic_logout.svg'),
   notifications: require('../../assets/img/ic_notification.svg'),
   menu: require('../../assets/img/menu.svg'),
@@ -70,7 +70,7 @@ export default ({children}) => {
           toggler={<img src={assets.menu} alt=""/>}
           brand={{
             image: assets.logo_x1,
-            name: 'BankUP',
+            name: 'UNIBANK',
             srcset: {img1: `${assets.logo_x1} 200w`, img2: `${assets.logo_x2} 432w`}
           }}
           fluid={true}

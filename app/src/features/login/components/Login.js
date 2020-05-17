@@ -115,6 +115,7 @@ export default ({onLogin, reportError, router, contentService, handleError}) => 
 
             <div className='form__content' style={{}}>
               <div className="ui-title">Connexion</div>
+              <div>pour acceder a l'espace client vous pouvez saisir n'importe quel login et mot de passe ;)</div>
               {!isEmpty(reportError) && <div className='form-error__content'>
                 <img src={assets.warning} alt=''/> Veuillez vérifier vos identifiants et/ou pays</div>}
               <Form large onSubmit={onSubmit} fields={loginForm} onError={reportError} render={() => (

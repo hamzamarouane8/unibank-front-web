@@ -1,4 +1,4 @@
-{
+export const transactions = {
   "transactions": [
     {
       "operationId": "360123612547893232",
@@ -8,7 +8,8 @@
       "amount": 1400,
       "type":"debit",
       "status":"in progress",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "360123654785693232",
@@ -18,7 +19,8 @@
       "amount": "15000",
       "type":"credit",
       "status":"in progress",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365477893232",
@@ -28,7 +30,8 @@
       "amount": "200",
       "type":"debit",
       "status":"en cours",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012636547893232",
@@ -38,7 +41,8 @@
       "amount": "2000",
       "type":"credit",
       "status":"in progress",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365475893232",
@@ -48,7 +52,8 @@
       "amount": "400",
       "type":"debit",
       "status":"in progress",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365478956563232",
@@ -58,7 +63,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365478434393232",
@@ -68,7 +74,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "3601236547893232322",
@@ -78,7 +85,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "360123324346547893232",
@@ -88,7 +96,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "3601236547112332",
@@ -98,7 +107,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "3601236542121232",
@@ -108,7 +118,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365478345232",
@@ -118,7 +129,8 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     },
     {
       "operationId": "36012365472342323",
@@ -128,6 +140,7 @@
       "amount": "35.50",
       "type":"debit",
       "status":"effectuee",
-      "currency": "CFA"
+      "currency": "CFA",
+      "label":"virement"
     }]
-}
+};

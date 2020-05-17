@@ -1,7 +1,8 @@
 
-## BANK-UP FRONT
+## UNIBANK FRONT
 
-Ce projet contient le frontend web du projet BankUP.
+Ce projet contient le frontend web du projet UniBANK.
+Vous pouvez visiter l'application UNIBANK enligne dans le lien suivant : http://moneymanager.com2.s3-website.eu-central-1.amazonaws.com/
 Il s'agit d'une application NodeJS/React gérée par [Lerna](https://github.com/lerna/lerna).
 
 

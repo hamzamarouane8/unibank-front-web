@@ -6,7 +6,7 @@ import {LayoutGuestStyle} from './styles/layoutSecured'
 const assets = {
   logout: require('../../assets/img/ic_logout.svg'),
   logo_x1: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_200.jpg'),
-  logo_x2: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_432.jpg'),
+  logo_x2: require('../../assets/img/header/logo/Logo_header_3x_nj2jws_c_scale,w_432.png'),
   menu: require('../../assets/img/menu.svg'),
 
 }
@@ -34,7 +34,7 @@ export default ({session, children,option}) => {
         navabarType={false}
         toggler={<img src={assets.menu} alt=""/>}
         brandClassName='d-none d-lg-block d-xl-block'
-        brand={{image: assets.logo_x2, name: 'BankUP',srcset:{img1:`${assets.logo_x1} 200w`,img2:`${assets.logo_x2} 432w`}}}
+        brand={{image: assets.logo_x2, name: 'unibank',srcset:{img1:`${assets.logo_x1} 200w`,img2:`${assets.logo_x2} 432w`}}}
         fluid={true}
         primaryLinks={primaryLinks}
         secondaryLinks={secondaryLinks}

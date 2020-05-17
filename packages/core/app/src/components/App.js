@@ -6,7 +6,7 @@ import Router from './Router';
 import {Helmet} from "react-helmet";
 
 export default ({id, config, routes, layout}) => {
-
+console.log('app')
   const [loaded, setLoaded] = React.useState(false);
 
   React.useEffect(() => {

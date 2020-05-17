@@ -57,7 +57,7 @@ export default ({walletService}) => {
     })
 
     walletService.loadTransactions(code).then((data) => {
-      setTransactions(data.transactions);
+      setTransactions(data);
       setLoading(false)
     }).catch((error) => {
       console.log('heeee',error)

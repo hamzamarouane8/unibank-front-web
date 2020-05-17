@@ -15,7 +15,7 @@ export default ({session, router, services}) => {
     login: (credentials) => services.authService.login(credentials,'SN')
       .then((data) => session.login(data))
       .then(() => {
-        router.redirect('/cgu')
+        router.redirect('/dashboard')
       }).catch(error=>{
         setError(error)
       }),

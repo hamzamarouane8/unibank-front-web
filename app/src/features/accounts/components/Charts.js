@@ -60,6 +60,7 @@ export const ChartBar = ({categories, series, type, title}) => {
       opacity: 1
     }
   }
+  console.log('serie',series)
   return (
     <ChartStyle>
       <div className="chart">

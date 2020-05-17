@@ -1,20 +1,35 @@
 import get from "lodash.get"
-import {client} from './_config'
+import { client } from './_config'
+import { accounts } from './samples/accounts';
+import { accountDetails } from './samples/accountsDetails';
+import { transactions } from './samples/account_operations';
+
 /**
  * Charge le descripteur JSON contenant tous les informations pour faire le rendu de la page Mes Comptes
  * pour la filiale.
  */
 
-let token ='';
+let token = '';
 
+const loadAccountsMock = (token) => {
+  return Promise.resolve(accounts);
+};
+
+const accountDetailsMock = (token, accountId) => {
+  return Promise.resolve(accountDetails);
+};
+
+const transactionMock = (token, accountId) => {
+  return Promise.resolve(transactions);
+};
 
 export default class AccountsService {
 
   constructor(session) {
     token = get(session, 'user.data.access_token');
   }
-  loadAccounts=()=>client.accounts.accounts(token).then((data)=>data.data).catch((error)=> error)
-  loadAccountDetails = (accountNumber) =>   client.accounts.accountDetails(token,'16111904344').then((data)=>data).catch((error)=> error)
-  loadAccountTransactions = (accountNumber) => client.accounts.transactions(token,'16111904344').then((data)=>data)
+  loadAccounts = () => loadAccountsMock(token).then((data) => data.accounts).catch((error) => error)
+  loadAccountDetails = (accountNumber) => accountDetailsMock(token, '16111904344').then((data) => data).catch((error) => error)
+  loadAccountTransactions = (accountNumber) => transactionMock(token, '16111904344').then((data) => data)
 
 }

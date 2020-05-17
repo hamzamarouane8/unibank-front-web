@@ -21,10 +21,12 @@ import {Session, SessionProvider} from '../context/session';
 
 
 const ExtRoute = ({config, component, access, path, exact, Layout,option}) => {
+  console.log('check time of render')
   let session = null;
-
   if (config.session) {
     let {state, dispatch} = React.useContext(Session);
+    console.log('ExtRoute',state)
+
     const loginPageUri = get(config, 'loginPage', HOME_URI);
     const homePage = get(config, 'homePage', DEFAULT_URI);
     if (access) {

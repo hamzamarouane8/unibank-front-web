@@ -24,7 +24,7 @@ export default ({brand, contact, address, copyright}) => {
                  style={{pointerEvents: 'none'}}>À propos
             </div>
             <div className={`mb-4 ${item === 'info' ? 'd-flex' : 'd-none'} section-footer-content d-lg-flex`}>
-            <h5>{brand.name} Societe General ABS</h5>
+            <h5>{brand.name} la banque UNIBANK</h5>
             <p>
               {address.line1}<br/>
               {address.line2}<br/>

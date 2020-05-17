@@ -1,22 +1,22 @@
 {
   "bank": {
     "contact": {
-      "email": "contact@societegenerale.afmo"
+      "email": "contact@unibank.afmo"
     },
     "address": {
       "line1": "Boulevard Sidi Mohamed Ben Abdellah",
-      "line2": "Casablanca Marina, Tour Ivoire 2",
+      "line2": "Casablanca sidi maarouf, Tour Ivoire 2",
       "postalCode": "200030",
       "city": "Casablanca",
       "country": "Maroc"
     }
   },
-  "copyrightMessage": "Groupe Société Générale. Tous droits réservés",
+  "copyrightMessage": "Groupe unibank. Tous droits réservés",
   "pages": {
     "home": {
       "products": [
         {
-          "title": "BankUP, la banque en ligne innovante à portée de main.",
+          "title": "UNIBANK, la banque en ligne innovante à portée de main.",
           "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.",
           "action": "Plus d'info",
           "img": "https://bankup-sandbox.ams3.digitaloceanspaces.com/marketing_man_1.jpg"
@@ -30,7 +30,7 @@
       ],
       "features": {
         "title": "Une banque en ligne qui s'adapte a vos besoins.",
-        "description": "Avec BankUP, profitez des avantages d'une banque digitale",
+        "description": "Avec UNIBANK, profitez des avantages d'une banque digitale",
         "cta": {
           "text": "Souscrire"
         },

@@ -26,7 +26,7 @@ export default (() => {
       path: '/wallets',
       icon: IcWallets,
       className: 'wallets'
-    },
+    }/*,
     {
       text: 'E-documents',
       path: '/edoc',
@@ -38,7 +38,7 @@ export default (() => {
       path: '/branchesSec',
       icon: IcBranch,
 
-    },
+    }*/,
     {
       text: 'Taux de change',
       path: '/exchangeSec',

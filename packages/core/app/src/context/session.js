@@ -12,7 +12,7 @@ let initialState = {
 const Session = createContext(initialState);
 
 let reducer = (state, action) => {
-
+console.log('dispatch activate reducer')
   let sessionId = null;
   const prefix = (id) => `${state.appId|| action.appId}-${id}`;
 
@@ -34,7 +34,7 @@ let reducer = (state, action) => {
 };
 
 function SessionProvider({ children, appId }) {
-
+console.log('sessionProvider')
   const sessionId = store.get(`${appId}-session_id`);
   let user = null;
   if (sessionId) {
