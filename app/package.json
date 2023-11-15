@@ -49,9 +49,9 @@
     "lodash.escaperegexp": "^4.1.2",
     "lodash.filter": "^4.6.0",
     "lodash.isstring": "^4.0.1",
-    "nightwatch": "^1.0.19",
+    "nightwatch": "^1.6.2",
     "react-notifications-component": "^1.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
