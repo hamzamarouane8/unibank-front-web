@@ -30,7 +30,7 @@
     "@sgabskit/commons": "^0.1.8",
     "@sgabskit/constants": "^0.1.6",
     "@sgabskit/layout": "^0.1.8",
-    "formik": "^1.5.1",
+    "formik": "^2.2.9",
     "lodash.foreach": "^4.5.0",
     "lodash.get": "^4.4.2",
     "lodash.includes": "^4.3.0",
@@ -42,7 +42,7 @@
     "lodash.pick": "^4.4.0",
     "lodash.template": "^4.4.0",
     "moment": "^2.24.0",
-    "yup": "^0.26.10"
+    "yup": "^0.32.10"
   },
   "peerDependencies": {
     "react": "^16.8.4"
