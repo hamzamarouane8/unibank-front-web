@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "@sgabskit/commons": "^0.1.8",
-    "postal": "^2.0.5"
+    "postal": "^2.0.6"
   }
 }
