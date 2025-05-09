@@ -23,8 +23,8 @@
     "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.1",
-    "@blueprintjs/datetime": "^3.7.1",
+    "@babel/runtime": "^7.26.10",
+    "@blueprintjs/datetime": "^5.0.0",
     "@sgabskit/alerts": "^0.1.8",
     "@sgabskit/button": "^0.1.8",
     "@sgabskit/commons": "^0.1.8",
@@ -42,7 +42,7 @@
     "lodash.pick": "^4.4.0",
     "lodash.template": "^4.4.0",
     "moment": "^2.24.0",
-    "yup": "^0.26.10"
+    "yup": "^1.0.0"
   },
   "peerDependencies": {
     "react": "^16.8.4"
