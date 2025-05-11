@@ -23,14 +23,14 @@
     "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.1",
+    "@babel/runtime": "^7.26.10",
     "@sgabskit/avatar": "^0.1.8",
     "@sgabskit/popover": "^0.1.8",
     "@sgabskit/theme": "^0.2.0",
     "lodash.isstring": "^4.0.1",
     "lodash.map": "^4.6.0",
     "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.0.0",
 
 
     "reactstrap": "^7.1.0",
