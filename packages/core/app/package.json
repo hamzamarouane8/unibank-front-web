@@ -23,7 +23,7 @@
     "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.1",
+    "@babel/runtime": "^7.26.10",
     "@sgabskit/alerts": "^0.1.8",
     "@sgabskit/commons": "^0.1.8",
     "@sgabskit/lazy-component": "^0.1.8",
@@ -41,7 +41,7 @@
     "promise.prototype.finally": "^3.1.0",
     "prop-types": "^15.7.2",
     "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.0.0",
     "styletron-engine-atomic": "^1.1.0"
   },
   "peerDependencies": {
