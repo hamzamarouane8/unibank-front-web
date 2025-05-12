@@ -23,7 +23,7 @@
     "build:lib": "BABEL_ENV=production babel src/ -d dist/ --root-mode upward"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.1",
+    "@babel/runtime": "^7.26.10",
     "@sgabskit/constants": "^0.1.6"
   },
   "peerDependencies": {
