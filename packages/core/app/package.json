@@ -41,7 +41,7 @@
     "promise.prototype.finally": "^3.1.0",
     "prop-types": "^15.7.2",
     "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.30.2",
     "styletron-engine-atomic": "^1.1.0"
   },
   "peerDependencies": {
